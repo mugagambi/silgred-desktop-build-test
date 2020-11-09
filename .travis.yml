@@ -1,0 +1,22 @@
+# safelist
+branches:
+  only:
+    - master
+
+matrix:
+  include:
+    - os: linux
+      dist: bionic
+      sudo: true
+      language: node_js
+      node_js: '12'
+      addons:
+        apt:
+          packages:
+            - libx11-dev
+            - zlib1g-dev
+            - libpng-dev
+            - libxtst-dev
+
+script:
+  - build.sh
