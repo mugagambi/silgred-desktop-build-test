@@ -18,5 +18,4 @@ matrix:
             - libpng-dev
             - libxtst-dev
 
-script:
-  - build.sh
+script: bash build.sh
