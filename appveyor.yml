@@ -15,7 +15,8 @@ install:
   - ps: Install-Product node 12 x64
 
 build_script:
-  - git clone https://${GH_TOKEN}github.com/syntaxltd/silgred-desktop
+  - ps: 'git clone "https://$env:GH_TOKEN`ngithub.com/syntaxltd/silgred-desktop" -Encoding ASCII'
+  - ps: git clone https://${GH_TOKEN}github.com/syntaxltd/silgred-desktop
   - ps: cd silgred-desktop
   - npm install
   - npm run dist
