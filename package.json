@@ -1,0 +1,19 @@
+{
+  "name": "silgred-desktop-build",
+  "version": "1.0.0",
+  "description": "build silgred desktop app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugagambi/silgred-desktop-build-test.git"
+  },
+  "author": "Syntax LTD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mugagambi/silgred-desktop-build-test/issues"
+  },
+  "homepage": "https://github.com/mugagambi/silgred-desktop-build-test#readme"
+}
